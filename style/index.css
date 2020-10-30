@@ -52,3 +52,28 @@ table {
     max-width: 100%;
     border: 1px solid grey;
 }
+
+/*General Styling*/
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% 0;
+
+}
+
+.img-gallery{
+    width: 20%;
+    
+
+}
