@@ -54,6 +54,7 @@ table {
 }
 
 /*General Styling*/
+
 html{
     font-size:62.5%;
 }
@@ -62,6 +63,54 @@ body{
     font-size:1.6rem;
     line-height: 1.5;
 }
+
+a{
+    text-decoration:none;
+    letter-spacing:2px;
+}
+
+/* Header */
+
+header{
+    background-color: palegoldenrod;
+    display: flex;
+    flex-direction: column;
+}
+
+.name-header{
+    padding: 1% 1%;
+    font-size: 4rem;
+}
+
+.links-header{
+    padding:1% 2%;
+
+    color:#fff;
+}
+
+/* Top Section */
+
+.top{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top .left{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: flex-end;
+}
+
+/*Gallery*/
 
 .gallery{
     display: flex;
@@ -74,6 +123,6 @@ body{
 
 .img-gallery{
     width: 20%;
-    
 
 }
+
